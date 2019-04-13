@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_trangchinh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TrangChinh"
+    tools:showIn="@layout/app_bar_trang_chinh"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tvtc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn hiện đang có "
+            />
+        <TextView
+            android:id="@+id/tvtc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:id="@+id/tvtc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ghi chú( Tối đa 4 ghi chú)"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvtc8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú 1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvtc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Chưa có nội dung"
+        />
+    <TextView
+        android:id="@+id/tvtc9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú 2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tvtc5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Chưa có nội dung"
+        />
+    <TextView
+        android:id="@+id/tvtc10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú 3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    android:layout_gravity="center"
+    <TextView
+        android:id="@+id/tvtc6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Chưa có nội dung"
+        />
+    <TextView
+        android:id="@+id/tvtc11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú 4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tvtc7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Chưa có nội dung"
+        />
+</LinearLayout>
